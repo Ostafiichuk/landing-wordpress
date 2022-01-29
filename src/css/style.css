@@ -208,3 +208,145 @@ header{
 .description-optimization span {
     font-weight: 600;
 }
+
+/* section skills */
+
+.skills {
+    padding: 80px 0;
+    background-image: url(../img/bg-2.jpg);
+    background-size: cover;
+}
+
+.element-title-skills {
+    color: #efefef;
+}
+
+.skills-list {
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.skills-item {
+    width: 20%;
+}
+
+.skills-item-circle {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #b4e2ff;
+    position: relative;
+}
+
+.skills-item-circle img {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills-item-desc {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #efefef;
+    font-weight: 400;
+}
+
+/* section present */
+
+.present {
+    background-color: #efefef;
+    padding: 70px 0;
+}
+
+.present-img {
+    width: 150px;
+    height: 180px;
+    position: relative;
+    transform: translateX(-50%);
+    display: inline-block;
+    left: 50%;;
+}
+
+.present-descr {
+    margin-top: 30px;
+    color: #252525;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 135px;
+    font-size: 22px;
+}
+
+.present-wrapper-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* section date */
+
+.date {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 0;
+    color: #252525;
+}
+
+.date-title {
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.date-subtitle {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    color: #299cbd;
+}
+.date-desc {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    color: #888888;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    padding: 0 10px;
+    border-right: 1px solid #888888;
+    line-height: 14px;
+}
+.footer-item:last-child {
+    border: none;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #888888;
+}
+
+.footer-phone {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
